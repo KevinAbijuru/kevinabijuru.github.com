@@ -1,69 +1,161 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Kevin Abijuru, a software developer: about me, skills and projects.">
+    <title>My Portfolio: Kevin Abijuru</title>
     <link href="styles/main.css" rel="stylesheet">
-    <title>My Portfolio:  Kevin Abijuru</title>
+    <link href="styles/custom.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Start of about me section-->
-    <center>
-        <h1>My Portfolio - Updated</h1>
-        <i>Kevin Abijuru</i>
-    </center>
-    <div class="row">
-        <div class="col-lg-2">
-
-        </div>
-        <div class="col-lg-6">
-            <p>
-                <!-- Section to highlight about me-->
-                <br>
-                I am a highly motivated and results-driven
-                professional with a strong background in
-                Software development. With a passion for
-                knowledge sharing, I have developed expertise in
-                [key skills or areas of specialization].
-                My experience includes [briefly mention relevant experience or achievements]. I am committed to
-                continuous learning and growth, and I thrive in collaborative environments where I can
-                contribute to
-                innovative projects.
-            </p>
-        </div>
-        <div class="col-lg-4">
-            <div class="profile-img">
-                <img src="images/avatar.jpg" style="width: 40%; height: auto;" alt="Profile Image">
+    <!-- Start of navigation -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark" aria-label="Main navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#top">Kevin Abijuru</a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item"><a class="nav-link px-2" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link px-2" href="#contact">Contact</a></li>
+                </ul>
             </div>
-        </div>
-    </div>
-    <!-- End of about me section-->
+        </nav>
+    </header>
+    <!-- End of navigation -->
 
-    <!-- Start of projects section -->
-    <div class="row">
-        <div class="col-lg-2">
+    <main id="top">
+        <!-- Start of about me section-->
+        <section id="about" class="hero py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+                        <img src="images/avatar.jpg" class="avatar" width="220" height="220"
+                            alt="Portrait of Kevin Abijuru">
+                    </div>
+                    <div class="col-md-8">
+                        <h1 class="display-4">Kevin Abijuru</h1>
+                        <p class="lead">Software Developer</p>
+                        <p>
+                            I am a highly motivated and results-driven professional with a strong background in
+                            software development. With a passion for knowledge sharing, I have developed expertise
+                            in building practical, technology-driven solutions, from Bluetooth-enabled systems to
+                            web pages that are version-controlled with Git.
+                        </p>
+                        <p>
+                            My experience includes developing a fully fledged student attendance system that uses
+                            Bluetooth to capture attendance more effectively. I am now strengthening my DevOps
+                            skills at Saint Joseph Integrated Technical College (SJITC) by practising continuous
+                            development and continuous integration on this very portfolio. I am committed to
+                            continuous learning and growth, and I thrive in collaborative environments where I can
+                            contribute to innovative projects.
+                        </p>
+                        <a class="btn btn-primary" href="#projects">View my projects</a>
+                        <a class="btn btn-outline-secondary" href="https://github.com/KevinAbijuru" rel="noopener">My GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of about me section-->
 
+        <!-- Start of skills section -->
+        <section id="skills" class="py-5">
+            <div class="container">
+                <h2 class="section-title">Skills &amp; Focus Areas</h2>
+                <ul class="list-unstyled mb-0">
+                    <li class="badge badge-light border skill-badge">Software development</li>
+                    <li class="badge badge-light border skill-badge">Bluetooth-based systems</li>
+                    <li class="badge badge-light border skill-badge">HTML5 &amp; CSS3</li>
+                    <li class="badge badge-light border skill-badge">Bootstrap 4</li>
+                    <li class="badge badge-light border skill-badge">Git &amp; GitHub</li>
+                    <li class="badge badge-light border skill-badge">GitHub Pages deployment</li>
+                    <li class="badge badge-light border skill-badge">Continuous development &amp; integration</li>
+                </ul>
+            </div>
+        </section>
+        <!-- End of skills section -->
+
+        <!-- Start of projects section -->
+        <section id="projects" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <article class="card project-card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h4">Student Attendance System</h3>
+                                <dl class="row project-meta mb-0">
+                                    <dt class="col-sm-4">Description</dt>
+                                    <dd class="col-sm-8">Enhancing effectiveness in capturing student attendance using
+                                        Bluetooth.</dd>
+                                    <dt class="col-sm-4">Deliverable</dt>
+                                    <dd class="col-sm-8">A fully fledged student attendance system</dd>
+                                    <dt class="col-sm-4">Duration</dt>
+                                    <dd class="col-sm-8">May - June 2023</dd>
+                                    <dt class="col-sm-4">Role</dt>
+                                    <dd class="col-sm-8">Developer</dd>
+                                    <dt class="col-sm-4">Status</dt>
+                                    <dd class="col-sm-8">Completed</dd>
+                                    <dt class="col-sm-4">Budget</dt>
+                                    <dd class="col-sm-8">5,000,000 Rwf</dd>
+                                </dl>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <article class="card project-card h-100">
+                            <div class="card-body">
+                                <h3 class="card-title h4">Personal Portfolio Website</h3>
+                                <dl class="row project-meta mb-0">
+                                    <dt class="col-sm-4">Description</dt>
+                                    <dd class="col-sm-8">A responsive portfolio built with HTML and Bootstrap CSS,
+                                        developed continuously with Git and published on GitHub Pages.</dd>
+                                    <dt class="col-sm-4">Deliverable</dt>
+                                    <dd class="col-sm-8">A live portfolio site and a documented, licensed repository</dd>
+                                    <dt class="col-sm-4">Duration</dt>
+                                    <dd class="col-sm-8">September 2026 - ongoing</dd>
+                                    <dt class="col-sm-4">Role</dt>
+                                    <dd class="col-sm-8">Developer</dd>
+                                    <dt class="col-sm-4">Status</dt>
+                                    <dd class="col-sm-8">Ongoing, continuously improved</dd>
+                                    <dt class="col-sm-4">Links</dt>
+                                    <dd class="col-sm-8">
+                                        <a href="https://github.com/KevinAbijuru/kevinabijuru.github.com"
+                                            rel="noopener">Source code on GitHub</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of projects section -->
+
+        <!-- Start of contact section -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="mb-0">
+                    Want to collaborate or see more of my work? Find me on
+                    <a href="https://github.com/KevinAbijuru" rel="noopener">GitHub</a>.
+                </p>
+            </div>
+        </section>
+        <!-- End of contact section -->
+    </main>
+
+    <footer class="site-footer py-4 text-center">
+        <div class="container">
+            <small>
+                &copy; 2026 Kevin Abijuru &middot; Released under the <a href="LICENSE.txt">MIT License</a> &middot;
+                <a href="https://github.com/KevinAbijuru/kevinabijuru.github.com" rel="noopener">View source</a>
+            </small>
         </div>
-        <div class="col-lg-4">
-            <h2>Student Attendance System</h2>
-            <ul>
-                <li><b>Description</b>: Enhancing effectiveness in capturing student attendance using bluetooth </a></li>
-                <li><a href="#">Deliverable: A fully fledged student attendance system</a></li>
-                <li><a href="#">Duration: May - June 2023</a></li>
-                <li><a href="#">Role: Developer</a></li>
-                <li><a href="#">Status: Completed</a></li>
-                <li><a href="#">Budget: 5,000,000 Rwf</a></li>
-            </ul>
-        </div>
-        <div class="col-lg-4">
-            <h2>Projects 2</h2>
-            <ul>
-                <li><a href="project1.html">Project 1: [Project Name]</a></li>
-                <li><a href="project2.html">Project 2: [Project Name]</a></li>
-                <li><a href="project3.html">Project 3: [Project Name]</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- End of projects section -->
+    </footer>
 </body>
 
 </html>

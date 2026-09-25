@@ -1,0 +1,114 @@
+/* Portfolio-specific styles. Loaded after main.css (Bootstrap 4.4.1) so it can override it. */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 4rem;
+}
+
+/* Bootstrap's default blue fails WCAG AA contrast on white; use the darker shade. */
+a {
+  color: #0056b3;
+}
+
+a:hover {
+  color: #003d80;
+}
+
+.btn-primary {
+  background-color: #0062cc;
+  border-color: #0062cc;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004fa3;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e7f1ff 100%);
+}
+
+.hero .lead {
+  color: #495057;
+  font-weight: 400;
+}
+
+.avatar {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  background-color: #e9ecef;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .15);
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 3rem;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #0062cc;
+}
+
+.skill-badge {
+  margin: 0 .4rem .6rem 0;
+  padding: .5rem .9rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.project-card {
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1.25rem rgba(0, 0, 0, .12);
+}
+
+.project-meta dt {
+  color: #495057;
+  font-weight: 600;
+}
+
+.project-meta dd {
+  margin-bottom: .6rem;
+}
+
+.site-footer {
+  background-color: #343a40;
+  color: #ced4da;
+}
+
+.site-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .project-card {
+    transition: none;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+}
