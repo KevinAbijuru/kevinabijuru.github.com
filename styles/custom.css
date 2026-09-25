@@ -80,13 +80,15 @@ a:hover {
   box-shadow: 0 .5rem 1.25rem rgba(0, 0, 0, .12);
 }
 
-.project-meta dt {
-  color: #495057;
-  font-weight: 600;
+.project-meta li {
+  margin-bottom: .3rem;
 }
 
-.project-meta dd {
-  margin-bottom: .6rem;
+.skill-label {
+  margin: 0 0 .6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #495057;
 }
 
 .site-footer {
