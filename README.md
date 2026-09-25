@@ -1,25 +1,27 @@
 # Kevin Abijuru's Portfolio
 
-This is my personal portfolio website. It shows who I am, my skills and my projects.
+This is my personal portfolio website. It shows who I am, my experiences my skills, my projects and more.
 
 ## Features
 
 - About me section with my photo
 - Skills section
-- Projects section (Klique Platform, Student Attendance System and this website)
-- Contact section with my email and GitHub
-- Works on phones and computers
+- Projects section (Klique Platform, Student Attendance System, this website and more to come)
+- Contact section with my email and GitHub page
+- Responsive on phones and computers
 
 ## How to run this project
 
-You can see the website online here: https://kevinabijuru.github.io/
+You can visit the website Via: https://kevinabijuru.github.io/
 
 To run it on your own computer, follow the steps below.
 
 ### Prerequisites
 
-- A web browser (Chrome, Edge or Firefox)
+- A web browser (Chrome, Edge or Firefox | Recommending Brave)
 - Git
+- Github
+- Vs code (optional)
 
 ### Installation
 
