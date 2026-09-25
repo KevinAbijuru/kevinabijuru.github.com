@@ -1,36 +1,23 @@
-LICENSE BREAKDOWN FOR "KEVIN ABIJURU'S PORTFOLIO"
-==================================================
+LICENSE
 
-Repository: https://github.com/KevinAbijuru/kevinabijuru.github.com
+This is my portfolio project for school (SJITC DevOps class).
+Different parts of it have different licenses:
 
-This project mixes original work with third-party material, so more than one
-license applies. The table below shows which license covers which part of the
-repository. The full text of each license follows.
+1. My code and text (index.html, styles/custom.css, README.md)
+   -> MIT License
 
-  Part of the repository                  License that applies
-  --------------------------------------  --------------------------------------
-  index.html                              MIT License (Section 1)
-  styles/custom.css                       MIT License (Section 1)
-  README.md and LICENSE.txt               MIT License (Section 1)
-  styles/main.css (Bootstrap v4.4.1)      MIT License, Bootstrap authors (Section 2)
-  images/avatar.jpg (profile photo)       All rights reserved, NOT licensed (Section 3)
+2. Bootstrap (styles/main.css)
+   -> MIT License. This is not my work. It belongs to the Bootstrap authors.
 
-Educational purpose: this project was created as a continuous assessment for
-the DevOps course at Saint Joseph Integrated Technical College (SJITC),
-academic year 2025-2026.
+3. My photo (images/avatar.jpg)
+   -> All rights reserved. Please ask me before you use it.
 
-
---------------------------------------------------------------------------
-SECTION 1 - ORIGINAL CODE AND CONTENT: MIT LICENSE
---------------------------------------------------------------------------
-
-Applies to: index.html, styles/custom.css, README.md and LICENSE.txt, and to
-the written content of the portfolio (About Me text, skills list and project
-descriptions).
 
 MIT License
 
-Copyright (c) 2026 Kevin Abijuru
+Copyright (c) 2026 Kevin Abijuru (my code and text)
+Copyright 2011-2019 The Bootstrap Authors (Bootstrap v4.4.1)
+Copyright 2011-2019 Twitter, Inc. (Bootstrap v4.4.1)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -49,68 +36,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Limitations: the MIT License does not cover the profile photo (Section 3) or
-the third-party Bootstrap file (Section 2, which has its own notice). It also
-gives you no right to present the personal information in this portfolio
-(name, biography, project history) as your own.
-
-
---------------------------------------------------------------------------
-SECTION 2 - THIRD-PARTY CODE: BOOTSTRAP v4.4.1 (MIT LICENSE)
---------------------------------------------------------------------------
-
-Applies to: styles/main.css
-
-Bootstrap v4.4.1 (https://getbootstrap.com/)
-Copyright 2011-2019 The Bootstrap Authors
-Copyright 2011-2019 Twitter, Inc.
-Licensed under the MIT license
-(https://github.com/twbs/bootstrap/blob/master/LICENSE)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Note: the copyright header at the top of styles/main.css must be kept when
-this file is copied or redistributed.
-
-
---------------------------------------------------------------------------
-SECTION 3 - PROFILE PHOTO: ALL RIGHTS RESERVED
---------------------------------------------------------------------------
-
-Applies to: images/avatar.jpg
-
-Copyright (c) 2026 Kevin Abijuru. All rights reserved.
-
-This is a personal photograph of the author. It is included in this
-repository only so that the portfolio can display it. It is NOT released
-under the MIT License or any other open license. You may not copy, modify,
-redistribute or use it in any other work without the author's prior written
-permission.
-
-
---------------------------------------------------------------------------
-OTHER NOTES
---------------------------------------------------------------------------
-
-- No other third-party code, fonts, icons or images are bundled in this
-  repository. The page uses the visitor's system fonts.
-- The "Student Attendance System" described on the portfolio is a separate
-  project. Its source code is not part of this repository, so this license
-  does not grant any rights to it.
