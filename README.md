@@ -47,7 +47,12 @@ This project uses the MIT License. Bootstrap (`styles/main.css`) has its own MIT
 ## Contributors
 
 - Kevin Abijuru
-- Dusengimana Simon Pierre
+- Dusengimana Simon Pierre 
+Full name: Dusenge Simon Pierre
+GitHub username: piesimon
+Profile link: https://github.com/piesimon
+Role	Collaborator on my portfolio (writes the About Me section on a feature branch)
+
 
 ## Project link
 
