@@ -47,7 +47,7 @@ This project uses the MIT License. Bootstrap (`styles/main.css`) has its own MIT
 ## Contributors
 
 - Kevin Abijuru
-- Claude AI 😁
+- Dusengimana Simon Pierre
 
 ## Project link
 
