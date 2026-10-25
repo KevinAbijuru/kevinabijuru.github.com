@@ -1,0 +1,29 @@
+2026-10-25 14:51:56 | INFO    | RUN START | website=https://kevinabijuru.github.io/ | browser=chrome 156.0.8078.47 | operating_system=Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.41 | run_id=20261025_145153_692154
+2026-10-25 14:52:02 | INFO    | TC-01 | what_tested=Click Home from the portfolio navigation | expected=URL path is /index.html | actual=https://kevinabijuru.github.io/index.html | status=PASS | duration=5.831s | title=My Portfolio
+2026-10-25 14:52:05 | INFO    | TC-02 | what_tested=Click About from the portfolio navigation | expected=URL path is /about.html | actual=https://kevinabijuru.github.io/about.html | status=PASS | duration=2.802s | title=About Me
+2026-10-25 14:52:13 | INFO    | TC-03 | what_tested=Click Services from the portfolio navigation | expected=URL path is /services.html | actual=https://kevinabijuru.github.io/services.html | status=PASS | duration=6.136s | title=Services
+2026-10-25 14:52:15 | INFO    | TC-04 | what_tested=Click Portfolio from the portfolio navigation | expected=URL path is /portfolio.html | actual=https://kevinabijuru.github.io/portfolio.html | status=PASS | duration=1.537s | title=Portfolio
+2026-10-25 14:52:18 | INFO    | TC-05 | what_tested=Click Contact from the portfolio navigation | expected=URL path is /contact.html | actual=https://kevinabijuru.github.io/contact.html | status=PASS | duration=1.758s | title=Contact Us
+2026-10-25 14:52:20 | INFO    | TC-06 | what_tested=Click Portfolio Details from the Pages menu | expected=URL path is /portfolio-details.html | actual=https://kevinabijuru.github.io/portfolio-details.html | status=PASS | duration=1.741s | title=Portfolio Details
+2026-10-25 14:52:25 | ERROR   | TC-07 | what_tested=Locate a deliberately missing navigation link | expected=Missing locator is handled and recorded as FAIL | actual=https://kevinabijuru.github.io/ | status=FAIL | duration=4.011s | page_url=https://kevinabijuru.github.io/ | error=Message: 
+Stacktrace:
+#0 0x570349274462 <unknown>
+#1 0x570348b9b9d8 <unknown>
+#2 0x570348bf064a <unknown>
+#3 0x570348bf0a05 <unknown>
+#4 0x570348c407e8 <unknown>
+#5 0x570348c3e191 <unknown>
+#6 0x570348be369c <unknown>
+#7 0x570348be45f5 <unknown>
+#8 0x570349235f0e <unknown>
+#9 0x570349234a6d <unknown>
+#10 0x57034923441e <unknown>
+#11 0x570349223458 <unknown>
+#12 0x570349235296 <unknown>
+#13 0x57034920cee9 <unknown>
+#14 0x57034925e1f9 <unknown>
+#15 0x57034925e3e3 <unknown>
+#16 0x570349272e23 <unknown>
+#17 0x731ba0c6d8bb <unknown>
+ | screenshot=logs/screenshots/20261025_145153_692154_TC-07_fail.png
+2026-10-25 14:52:25 | INFO    | RUN END | total_tests=7 | passed=6 | failed=1 | duration=31.706s | log_file=selenium_run_20261025_145153_692154.log

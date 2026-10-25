@@ -1,0 +1,10 @@
+services:
+  selenium-assignment:
+    build:
+      context: .
+    image: kevinabijuru-selenium-assignment:local
+    shm_size: "2gb"
+    init: true
+    restart: "no"
+    volumes:
+      - ./logs:/app/logs
