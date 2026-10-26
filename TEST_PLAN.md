@@ -3,6 +3,7 @@
 **Module:** Development Operations (ITLDO801)  
 **Portfolio:** Kevin Abijuru Portfolio  
 **Base URL:** https://kevinabijuru.github.io/  
+**GitHub repository:** https://github.com/KevinAbijuru/kevinabijuru.github.com  
 **Test tool:** Python Selenium with headless Chromium  
 
 | Test ID | What is tested | Steps | Expected result |
